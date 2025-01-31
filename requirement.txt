@@ -3,3 +3,14 @@
 !pip install tensorflow==2.18.0
 !pip install pillow
 !pip install sqlite3
+
+
+
+how to train and run the model?- 
+
+Train the Model:
+Run train_model.py to train the model using the data in dap_db.db.
+This will save the trained model as html_css_model.h5 and the tokenizer as tokenizer.pkl.
+
+Generate HTML/CSS:
+Run generate_html_css.py to generate HTML and CSS for a test image (example_image.png).
